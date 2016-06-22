@@ -41,7 +41,7 @@ public class FBAnnotationClusterView : MKAnnotationView {
             else {
                 imageName = "clusterSmall"
             }
-            borderWidth = 3
+            borderWidth = 1
             
         case 6...15:
             fontSize = 13
@@ -52,7 +52,7 @@ public class FBAnnotationClusterView : MKAnnotationView {
             else {
                 imageName = "clusterMedium"
             }
-            borderWidth = 4
+            borderWidth = 1
             
         default:
             fontSize = 14
@@ -63,7 +63,7 @@ public class FBAnnotationClusterView : MKAnnotationView {
             else {
                 imageName = "clusterLarge"
             }
-            borderWidth = 5
+            borderWidth = 1
             
         }
         
@@ -88,7 +88,7 @@ public class FBAnnotationClusterView : MKAnnotationView {
             countLabel.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
             countLabel.textAlignment = .Center
             countLabel.backgroundColor = UIColor.clearColor()
-            countLabel.textColor = UIColor.whiteColor()
+            countLabel.textColor = UIColor.blackColor()
             countLabel.adjustsFontSizeToFitWidth = true
             countLabel.minimumScaleFactor = 2
             countLabel.numberOfLines = 1
